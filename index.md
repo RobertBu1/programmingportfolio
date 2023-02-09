@@ -14,6 +14,6 @@ OOP graphical calculator built in Processing 4
 
 OOP pixelated shooting game in Processing 4
 
-![Running Space Game]()
+![Running Space Game](https://github.com/RobertBu1/programmingportfolio/blob/main/images/space.png?raw=true)
 
 [Space Game source code](https://github.com/RobertBu1/programmingportfolio/tree/main/src/spacegame)
