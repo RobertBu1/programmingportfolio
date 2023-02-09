@@ -10,10 +10,20 @@ OOP graphical calculator built in Processing 4
 
 [Calculator Source Code](https://github.com/RobertBu1/programmingportfolio/tree/main/src/calc)
 
-###Space Game
+### Space Game
 
 OOP pixelated shooting game in Processing 4
 
 ![Running Space Game](https://github.com/RobertBu1/programmingportfolio/blob/main/images/space.png?raw=true)
 
 [Space Game source code](https://github.com/RobertBu1/programmingportfolio/tree/main/src/spacegame)
+
+## C++ Projects
+
+### Shape Maker
+
+C++ programming on the volumes and surface areas of shapes in replit
+
+![Running Shape Maker]()
+
+[C++ Shape Maker source code]()
