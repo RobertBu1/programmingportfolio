@@ -30,4 +30,6 @@ C++ programming on the volumes and surface areas of shapes in replit
 
 Translator from English to Pig Latin in replit
 
+![Running Pig Latin Translator]()
+
 [C++ Pig Latin Translator](https://github.com/RobertBu1/programmingportfolio/blob/main/src/piglatin.cpp)
