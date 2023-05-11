@@ -1,8 +1,11 @@
 # Coding Proejects
 
 Name:Robert Bulanon
-Email:[robul2100@gmail.com]
+
+Email:robul2100@gmail.com
+
 C++ Certification
+
 Product Manager of Star Chess Group Project
 
 # 2022-23 Programming Projects
