@@ -1,3 +1,10 @@
+# Coding Proejects
+
+Name:Robert Bulanon
+Email:[robul2100@gmail.com]
+C++ Certification
+Product Manager of Star Chess Group Project
+
 # 2022-23 Programming Projects
 
 ## Processing Projects
@@ -40,4 +47,4 @@ Creates a random word by using random prefixes, suffixes, and root words.
 
 ![Running Word Application](https://github.com/RobertBu1/programmingportfolio/blob/main/images/Word%20app%20running.png?raw=true)
 
-[C++ Word Application]()
+[C++ Word Application](https://github.com/RobertBu1/programmingportfolio/blob/main/src/Random%20word%20app/src)
