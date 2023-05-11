@@ -4,7 +4,7 @@ Name:Robert Bulanon
 
 Email:robul2100@gmail.com
 
-C++ Certification
+C++ Certification, General Coding Certification
 
 Product Manager of Star Chess Group Project
 
