@@ -38,6 +38,6 @@ Translator from English to Pig Latin in replit
 
 Creates a random word by using random prefixes, suffixes, and root words.
 
-![Running Word Application]
+![Running Word Application](https://github.com/RobertBu1/programmingportfolio/blob/main/images/Word%20app%20running.png?raw=true)
 
-[C++ Word Application]
+[C++ Word Application]()
