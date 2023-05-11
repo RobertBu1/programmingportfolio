@@ -1,0 +1,49 @@
+#include <iostream>
+#include <stdio.h>      /* printf, scanf, puts, NULL */
+#include <stdlib.h>     /* srand, rand */
+#include <time.h>       /* time */
+using namespace std;
+
+  string prefixes[20] = {"ANTI", "DE", "DIS", "EN", "FORE", "IR", "IN" , "IM", "INTER", "MID", "NON", "PRE", "TRANS", "SUPER", "SUB", "SEMI", "MIS", "RE", "UN", "INTRA"};
+
+string preDefs[20] = {"against", "opposite of", "opposite of", "the cause of", "before", "not", "in", "not", "between", "in the middle of", "not", "before", "across", "above", "under", "partly", "wrongly", "/again", "not", "within"};
+
+string suffixes[20] = {"ABLE", "ED", "EN", "ER", "EST", "FUL", "IC", "S", "ATION", "LESS", "LY", "Y", "NESS", "MENT", "ION", "ER", "OUS", "TY", "IOUS", "AL"};
+
+string sufDefs[20] = {"(adjective/adverb):\ncan be", "(noun):\nsomething that has been", "(adjective/adverb):\nmade of", "(noun):\nsomeone who is", "(adjective/adverb):\nas relating to other things, the most", "(adjective/adverb):\nfull of", "(adjective/adverb):\nhaving the characteristics of", "(plural noun):\nmore than one", "(verb):\nthe process of", "(adjective/adverb):\nwithout being", "(adjective/adverb):\nwhen something is", "(adjective/adverb):\ncharacterized by", "(noun):\na condition of", "(noun):\na state of being", "(noun):\nprocess of acting", "(adjective/adverb):\nas relating to something else, being more", "(adjective/adverb):\nhaving qualities of", "(noun):\nstate of", "(adjective/adverb):\nhaving qualities of", "(adjective/adverb):\nhaving the characteristics of"};
+
+string roots[20] = {"CIRCUM", "ANTHROPO", "MORPH", "HYPO", "FRACT", "STRUCT", "VID", "BENE", "PORT", "BIO", "THERM", "PHIL", "PHOTO", "AUTO", "MONO", "MAL", "RUPT", "MULTI", "VOC", "PSUEDO"};
+
+string rootDefs[20] = {"circular", "human", "form", "below", "breaking", "building", "seeing", "good", "carrying", "life", "heat", "love", "light", "one's self", "one", "bad", "breaking", "many", "calling", "false"};
+
+int main() {
+
+  cout << "\nHow many words would you like to generate? ";
+  int words = 1;
+  cin >> words;
+  cout << "-------------------------------------------------------------\n\n";
+
+  for(int i = 0; i < words; i++){
+    srand(i + time(0)); //new seed
+    int p = rand() % 20;
+    int s = rand() % 20;
+    int r = rand() % 20;
+    cout << "Word: " + prefixes[p] + roots[r] + suffixes[s] + "\n";
+    if(preDefs[p][0] == '/'){
+      string prefixDef;
+      for(int i = 1; i < preDefs[p].length(); i++)
+      {
+        prefixDef += preDefs[p][i];
+      }
+      cout << sufDefs[s] + " " + rootDefs[r] + " " + prefixDef + "." + "\n\n";
+    }
+    else{
+      cout << sufDefs[s] + " " + preDefs[p] + " " + rootDefs[r] + "." + "\n\n";
+    }
+
+    cout << "-------------------------------------------------------------\n\n";
+  }
+  
+  
+}
+  
